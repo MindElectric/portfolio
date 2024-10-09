@@ -6,7 +6,7 @@ export default function PortfolioLayout({
     children: React.ReactNode;
 }) {
     return (
-        <main className="min-h-screen px-12">
+        <main className="min-h-screen flex flex-col items-center md:block px-8 md:px-12">
             <TopMenu />
             <div className="pt-2">{children}</div>
         </main>
