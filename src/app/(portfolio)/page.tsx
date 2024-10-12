@@ -1,10 +1,11 @@
 import { CircleCarousel } from "./components/circle-carousel/CircleCarousel";
+import { LogoScroll } from "./components/logo-scroll/LogoScroll";
 import { RainbowWords } from "./components/words/RainbowWords";
 
 export default function HomePage() {
     return (
         <>
-            <div className="pt-3 sm:pt-0 block md:flex md:min-h-96 justify-between items-center">
+            <section className="pt-3 sm:pt-0 block md:flex md:min-h-96 justify-between items-center px-8 md:px-12">
                 <div className="md:w-1/3">
                     <div className="flex justify-center">
                         <div className="text-xl md:text-2xl lg:text-3xl">My Name is</div>
@@ -17,14 +18,20 @@ export default function HomePage() {
 
                     </div>
                 </div>
-                <div className="w-full xl:w-3/4 h-full md:pl-12 lg:pl-20 mt-8 md:mt-0">
+                <aside className="w-full xl:w-3/4 h-full md:pl-12 lg:pl-20 mt-8 md:mt-0">
                     <CircleCarousel />
-                </div>
-            </div>
+                </aside>
+            </section>
 
-            <div className="mt-14 lg:mt-32">
-                <h2 className="text-xl md:text-2xl lg:text-3xl">About Me</h2>
-            </div>
+            <section className="mt-14 lg:mt-32 px-8 md:px-12">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">About Me</h2>
+                <p className="text-lg md:text-xl lg:text-2xl mt-6">I am a software engineer</p>
+            </section>
+
+            <section className="w-full mt-14 lg:mt-32">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6">Companies I've Worked for</h2>
+                <LogoScroll />
+            </section>
         </>
     );
 }
