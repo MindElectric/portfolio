@@ -22,6 +22,7 @@ const config: Config = {
 				xs: '480px',
 			},
 			colors: {
+				custompink: "#DE4AA8",
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				card: {

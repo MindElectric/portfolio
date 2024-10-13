@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import 'devicon/devicon.min.css';
 import { inter } from "@/config/font"
 
 
