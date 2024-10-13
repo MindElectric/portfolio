@@ -1,5 +1,6 @@
 import { CircleCarousel } from "./components/circle-carousel/CircleCarousel";
 import { LogoScroll } from "./components/logo-scroll/LogoScroll";
+import { GridCards } from "./components/tech-card/GridCards";
 import { RainbowWords } from "./components/words/RainbowWords";
 
 export default function HomePage() {
@@ -31,6 +32,11 @@ export default function HomePage() {
             <section className="w-full mt-14 lg:mt-32">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6">Companies I've Worked for</h2>
                 <LogoScroll />
+            </section>
+
+            <section className="mt-14 lg:mt-32 px-8 md:px-12">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6">What I Work With</h2>
+                <GridCards />
             </section>
         </>
     );
