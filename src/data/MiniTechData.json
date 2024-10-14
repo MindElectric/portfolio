@@ -1,0 +1,26 @@
+[
+    {
+        "name": "TypeScript",
+        "icon": "devicon-typescript-plain"
+    },
+    {
+        "name": "TailwindCSS",
+        "icon": "devicon-tailwindcss-plain"
+    },
+    {
+        "name": "Postgres",
+        "icon": "devicon-postgresql-plain"
+    },
+    {
+        "name": "Dart",
+        "icon": "devicon-dart-plain"
+    },
+    {
+        "name": "SQL Server",
+        "icon": "devicon-microsoftsqlserver-plain"
+    },
+    {
+        "name": "Docker",
+        "icon": "devicon-docker-plain"
+    }
+]

@@ -27,6 +27,8 @@ export default function HomePage() {
                 </aside>
             </section>
 
+            {/* TODO: Turn these to high order components */}
+
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">About Me</h2>
                 <p className="text-lg md:text-xl lg:text-2xl mt-6">I am a software engineer</p>
@@ -48,6 +50,10 @@ export default function HomePage() {
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6">Other Technologies I Use</h2>
                 <GridMiniTechCards />
+            </section>
+
+            <section className="mt-14 lg:mt-32 px-8 md:px-12">
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6">Projects</h2>
             </section>
         </>
     );
