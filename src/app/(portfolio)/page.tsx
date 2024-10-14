@@ -3,8 +3,9 @@ import { CircleCarousel } from "./components/circle-carousel/CircleCarousel";
 import { LogoScroll } from "./components/logo-scroll/LogoScroll";
 import { GridCards } from "./components/tech-card/GridCards";
 import { RainbowWords } from "./components/words/RainbowWords";
-import Link from "next/link";
 import { GridMiniTechCards } from "./components/tech-card/GridMiniTechCards";
+import { GridProjectCard } from "./components/project-card/GridProjectCard";
+import Link from "next/link";
 
 export default function HomePage() {
     return (
@@ -54,6 +55,9 @@ export default function HomePage() {
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6">Projects</h2>
+                <div className="flex justify-center">
+                    <GridProjectCard />
+                </div>
             </section>
         </>
     );
