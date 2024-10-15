@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Grupo Cruces",
+        "image": "../public/imgs/logos/company-logos/logo_grupo_cruces.png",
+        "alt": "logo grupo cruces",
+        "icon": "../public/imgs/gif/Icon/database.gif",
+        "description": "At Grupo Cruces I participated in creating an automatic e-mail sender in MicrosoftSQLServer whenever the database created a backup. I also recorded the data by making queries."
+    },
+    {
+        "title": "CAPUFE",
+        "image": "../public/imgs/logos/company-logos/logo_capufe.png",
+        "alt": "logo capufe",
+        "icon": "../public/imgs/gif/Icon/pie-chart.gif",
+        "description": "At CAPUFE I participated in creating an automatic e-mail sender in MicrosoftSQLServer whenever the database created a backup. I also recorded the data by making queries."
+    },
+    {
+        "title": "TELMEX",
+        "image": "../public/imgs/logos/company-logos/Telmex-Logo.png",
+        "alt": "logo telmex",
+        "icon": "../public/imgs/gif/Icon/chatbot.gif",
+        "description": "At TELMEX I participated in creating an automatic e-mail sender in MicrosoftSQLServer whenever the database created a backup. I also recorded the data by making queries."
+    },
+    {
+        "title": "Pequeños Momentos",
+        "image": "../public/imgs/logos/company-logos/Pequeños_logo.png",
+        "alt": "logo pequenos momentos",
+        "icon": "../public/imgs/gif/Icon/responsive.gif",
+        "description": "At Pequeños Momentos I participated in creating an automatic e-mail sender in MicrosoftSQLServer whenever the database created a backup. I also recorded the data by making queries."
+    }
+]

@@ -38,9 +38,11 @@ export default function HomePage() {
             <section className="w-full mt-14 lg:mt-32">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6">Companies I've Worked for</h2>
                 <LogoScroll />
-                <Link className=" flex justify-center mt-4" href={"/projects/work-projects"}>
-                    <Button size={"lg"}> Find Out More! </Button>
-                </Link>
+                <div className=" flex justify-center mt-4">
+                    <Link href={"/projects/work-projects"}>
+                        <Button size={"lg"}> Find Out More! </Button>
+                    </Link>
+                </div>
             </section>
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
