@@ -24,7 +24,7 @@ const CardDetails = [
     },
     {
         title: "NodeJS + Express",
-        description: "Experienced in using Node and Express JS to create robust APIs and streamline server-side development.",
+        description: "Experienced in using Node and Express JS to create robust APIs for server-side development.",
         image: node,
         bg_color: "#53804F",
         primary_color: "#303030",
