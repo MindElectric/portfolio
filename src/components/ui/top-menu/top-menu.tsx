@@ -56,9 +56,9 @@ export const TopMenu = () => {
                         </NavigationMenuContent>
                     </NavigationMenuItem>
                     <NavigationMenuItem>
-                        <Link href="/docs" legacyBehavior passHref>
+                        <Link href="https://github.com/MindElectric" legacyBehavior passHref>
                             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                                Documentation
+                                My Github Profile
                             </NavigationMenuLink>
                         </Link>
                     </NavigationMenuItem>
