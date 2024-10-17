@@ -1,6 +1,5 @@
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import Image, { StaticImageData } from "next/image"
-import vue from '../../../../../public/imgs/logos/tech-logos/vue_logo.png'
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -55,7 +54,7 @@ export const PersonalCard = ({ title, description, image, alt, technologies, bac
             </Card>
             <div className="flex justify-end py-4 md:py-7">
 
-                <Link href={href}>
+                <Link href={href} target="_blank">
                     <Button className="text-xs md:text-sm lg:text-base ">Find out more!</Button>
                 </Link>
             </div>

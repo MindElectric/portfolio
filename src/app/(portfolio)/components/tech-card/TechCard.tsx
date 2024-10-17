@@ -18,7 +18,7 @@ interface TechCardProps {
 export const TechCard = ({ title, description, image, bgColor, primaryColor, secondaryColor }: TechCardProps) => {
     return (
         <div className="w-full">
-            <Card className="h-52 lg:h-64" style={{ backgroundColor: bgColor ?? "transparent" }}>
+            <Card className="h-52 lg:h-64 shadow-md" style={{ backgroundColor: bgColor ?? "transparent" }}>
                 <div className="flex h-full">
                     <div className="w-1/5 xl:w-2/5 flex items-center">
                         <Image src={image} alt={"vue-img"} className="w-24 lg:w-44 xl:w-52 mx-4" />
