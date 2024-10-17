@@ -40,7 +40,7 @@ const CardDetails = [
     },
     {
         title: "NextJS",
-        description: "",
+        description: "Skilled in Next.js, I excel in creating robust and responsive web solutions.",
         image: next,
         bg_color: "#2F4F4F",
         primary_color: "#fff",
