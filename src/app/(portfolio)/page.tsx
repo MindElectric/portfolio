@@ -13,7 +13,7 @@ export default function HomePage() {
             <section className="pt-3 sm:pt-0 block md:flex md:min-h-96 justify-between items-center px-8 md:px-12">
                 <div className="md:w-1/3">
                     <div className="flex justify-center">
-                        <div className="text-xl md:text-2xl lg:text-3xl">My Name is</div>
+                        <div className="text-xl md:text-2xl lg:text-3xl dark:text-slate-200">My Name is</div>
 
                     </div>
                     <div className="flex justify-center">
@@ -31,12 +31,12 @@ export default function HomePage() {
             {/* TODO: Turn these to high order components */}
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold">About Me</h2>
-                <p className="text-lg md:text-xl lg:text-2xl mt-6">I am a software engineer</p>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
+                <p className="text-lg md:text-xl lg:text-2xl mt-6 dark:text-slate-200">I am a software engineer</p>
             </section>
 
             <section className="w-full mt-14 lg:mt-32">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6">Companies I've Worked for</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6 dark:text-slate-200">Companies I've Worked for</h2>
                 <LogoScroll />
                 <div className=" flex justify-center mt-4">
                     <Link href={"/projects/work-projects"}>
@@ -46,7 +46,7 @@ export default function HomePage() {
             </section>
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6">What I Work With</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6 dark:text-slate-200">What I Work With</h2>
                 <GridCards />
             </section>
 
@@ -56,7 +56,7 @@ export default function HomePage() {
             </section>
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6">Projects</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold mb-6 dark:text-slate-200">Projects</h2>
                 <div className="flex justify-center">
                     <GridProjectCard />
                 </div>

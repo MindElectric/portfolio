@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import 'devicon/devicon.min.css';
 import { inter } from "@/config/font"
+import { ThemeProvider } from "@/components/ui/themes-provider";
 
 
 
@@ -23,7 +24,14 @@ export default function RootLayout({
       <body
         className={inter.className}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

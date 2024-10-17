@@ -17,8 +17,8 @@ export const ProjectCard = ({ title, description, path }: ProjectCardProps) => {
             <Card className="w-full h-full border-2 border-custompink">
                 <div className="flex justify-center items-center h-full">
                     <div>
-                        <div className={`${poppins.className} text-xl lg:text-2xl antialiased text-center font-bold px-20 xl:px-36`}>{title}</div>
-                        <div className="px-2 text-base lg:text-lg text-center mt-6">{description}</div>
+                        <div className={`${poppins.className} text-xl lg:text-2xl antialiased text-center font-bold px-20 xl:px-36 dark:text-slate-200`}>{title}</div>
+                        <div className="px-2 text-base lg:text-lg text-center mt-6 dark:text-slate-200">{description}</div>
                         <div className="flex justify-center">
                             <Link href={path}>
                                 <Button className="mt-6 border-2 border-custompink" variant={"outline"}>View All</Button>

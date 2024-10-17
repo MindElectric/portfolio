@@ -25,15 +25,15 @@ export const PersonalCard = ({ title, description, image, alt, technologies, bac
                     {/* Name and description */}
                     <div className="flex flex-col ml-5 xl:ml-10 w-full">
                         <CardHeader className="pb-2 xl:pl-0">
-                            <CardTitle className="text-base text-background md:text-lg lg:text-2xl font-bold"
+                            <CardTitle className="text-base text-background dark:text-slate-200 md:text-lg lg:text-2xl font-bold"
                             >{title}</CardTitle>
                         </CardHeader>
-                        <CardContent className="text-white xl:pl-0 flex-grow">
+                        <CardContent className="text-white xl:pl-0 flex-grow dark:text-slate-200">
                             <p className="text-sm  lg:text-xl">{description}</p>
                         </CardContent>
                         <CardFooter className="flex justify-between items-center pl-0">
                             <div className="hidden md:flex">
-                                <p className="text-sm mt-auto text-background  lg:text-xl">Technologies:</p>
+                                <p className="text-sm mt-auto text-background dark:text-slate-200  lg:text-xl">Technologies:</p>
 
                                 {technologies.map((tech, index) => (
                                     <Image src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${tech}/${tech}-original.svg`}
@@ -52,10 +52,10 @@ export const PersonalCard = ({ title, description, image, alt, technologies, bac
 
                 </div>
             </Card>
-            <div className="flex justify-end py-4 md:py-7">
+            <div className="flex justify-end py-4 md:py-7 mr-3 md:mr-6">
 
                 <Link href={href} target="_blank">
-                    <Button className="text-xs md:text-sm lg:text-base ">Find out more!</Button>
+                    <Button className="text-xs md:text-sm lg:text-base ">Check the repository!</Button>
                 </Link>
             </div>
         </div>

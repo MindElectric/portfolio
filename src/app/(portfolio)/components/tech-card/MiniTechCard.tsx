@@ -19,7 +19,7 @@ export const MiniTechCard = ({ name, icon }: MiniTechCardProps) => {
                     <i className={clsx("text-2xl md:text-3xl  lg:text-5xl", icon, { 'colored': !isHovered })}></i>
                 </div>
                 <div className="ml-2 lg:ml-5 w-full">
-                    <p className="text-xs md:text-sm lg:text-xl font-bold">{name}</p>
+                    <p className="text-xs md:text-sm lg:text-xl font-bold dark:text-slate-200">{name}</p>
                 </div>
             </div>
         </div>

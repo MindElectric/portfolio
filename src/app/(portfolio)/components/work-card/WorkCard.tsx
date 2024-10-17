@@ -23,7 +23,7 @@ export const WorkCard = ({ title, alt, image, icon, description }: WorkCardProps
 
                 {/* Title */}
                 <div className="flex justify-center mt-3">
-                    <h1 className="text-base md:text-lg lg:text-2xl xl:text-3xl font-bold">{title}</h1>
+                    <h1 className="text-base md:text-lg lg:text-2xl xl:text-3xl font-bold dark:text-slate-200">{title}</h1>
                 </div>
 
                 {/* Icon */}
@@ -33,7 +33,7 @@ export const WorkCard = ({ title, alt, image, icon, description }: WorkCardProps
 
                 {/* Description */}
                 <div className="flex justify-center mx-5 text-xs lg:text-base xl:mx-20 text-justify mb-8">
-                    <p>{description}</p>
+                    <p className="leading-loose dark:text-slate-200">{description}</p>
                 </div>
             </div>
         </Card>

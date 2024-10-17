@@ -29,7 +29,7 @@ export const TechCard = ({ title, description, image, bgColor, primaryColor, sec
                             <CardTitle className="text-base md:text-lg lg:text-2xl font-bold" style={{ color: primaryColor ?? "black" }}
                             >{title}</CardTitle>
                         </CardHeader>
-                        <CardContent className="text-white xl:pl-0">
+                        <CardContent className="text-white xl:pl-0 dark:text-slate-200">
                             <p className="text-sm  lg:text-xl">{description}</p>
                         </CardContent>
                     </div>
