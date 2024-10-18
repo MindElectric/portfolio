@@ -6,6 +6,8 @@ import { RainbowWords } from "./components/words/RainbowWords";
 import { GridMiniTechCards } from "./components/tech-card/GridMiniTechCards";
 import { GridProjectCard } from "./components/project-card/GridProjectCard";
 import Link from "next/link";
+import { RevealBox } from "@/components/animation/RevealBox";
+import { RevealText } from "@/components/animation/RevealText";
 
 export default function HomePage() {
     return (
@@ -13,13 +15,17 @@ export default function HomePage() {
             <section className="pt-3 sm:pt-0 block md:flex md:min-h-96 justify-between items-center px-8 md:px-12">
                 <div className="md:w-1/3">
                     <div className="flex justify-center">
-                        <div className="text-xl md:text-2xl lg:text-3xl dark:text-slate-200">My Name is</div>
+                        <RevealBox>
+                            <div className="text-xl md:text-2xl lg:text-3xl dark:text-slate-200">My Name is</div>
+                        </RevealBox>
 
                     </div>
-                    <div className="flex justify-center">
-                        <div className="text-2xl md:text-2xl lg:text-4xl xl:text-6xl mt-5">
-                            <RainbowWords text="Kevin Reyes" />
-                        </div>
+                    <div className="flex justify-center mt-2">
+                        <RevealText>
+                            <div className="text-2xl md:text-2xl lg:text-4xl xl:text-6xl mt-5">
+                                <RainbowWords text="Kevin Reyes" />
+                            </div>
+                        </RevealText>
 
                     </div>
                 </div>
@@ -31,8 +37,12 @@ export default function HomePage() {
             {/* TODO: Turn these to high order components */}
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
-                <p className="text-lg md:text-xl lg:text-2xl mt-6 dark:text-slate-200">I am a software engineer</p>
+                <RevealBox>
+                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
+                </RevealBox>
+                <RevealText>
+                    <p className="text-lg md:text-xl lg:text-2xl mt-6 dark:text-slate-200">I am a software engineer</p>
+                </RevealText>
             </section>
 
             <section className="w-full mt-14 lg:mt-32">
