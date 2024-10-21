@@ -16,16 +16,16 @@ import Link from 'next/link'
 
 const components: { title: string; href: string; description: string }[] = [
     {
-        title: "Work Projects",
-        href: "/projects/work-projects",
-        description:
-            "Projects I worked for on companies",
-    },
-    {
         title: "Personal Projects",
         href: "/projects/personal-projects",
         description:
             "Projects I worked on personally",
+    },
+    {
+        title: "Work Projects",
+        href: "/projects/work-projects",
+        description:
+            "Projects I worked for on companies",
     },
 ]
 
