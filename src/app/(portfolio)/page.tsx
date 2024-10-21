@@ -37,12 +37,17 @@ export default function HomePage() {
             {/* TODO: Turn these to high order components */}
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
-                <RevealBox>
-                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
-                </RevealBox>
-                <RevealText>
-                    <p className="text-lg md:text-xl lg:text-2xl mt-6 dark:text-slate-200">I am a software engineer</p>
-                </RevealText>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
+                <p className="text-lg md:text-xl lg:text-2xl mt-6 dark:text-slate-200 leading-relaxed">
+                    I am a young software engineer that loves innovation and learning new things; I always strive to learn more so I can improve upon myself and put into practive what I've learned to its full potential!
+                    <br />
+                    <br />
+                    Beyond my work, you'll find I have a passion for video games mostly, but I also have the hobby of reading (especially spooky stories), be it books or on the internet, I love to inmerse myself in the author's writing.
+                    <br />
+                    <br />
+                    I'm excited to share what I can do and hope we can connect!
+                </p>
+
             </section>
 
             <section className="w-full mt-14 lg:mt-32">
