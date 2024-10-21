@@ -11,7 +11,7 @@ import someone from "../../../../../public/imgs/carousel/someone.png"
 
 export const CircleCarousel = () => {
     return (
-        <div className="w-full h-full bg-blue-800 rounded-xl ">
+        <div className="w-full h-full bg-blue-800 dark:bg-blue-900 rounded-xl ">
             <Carousel autoplay={6000} opts={{
                 loop: true
             }}>

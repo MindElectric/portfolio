@@ -1,3 +1,4 @@
+import { Footer } from "@/components/ui/footer/Footer";
 import { ToggleDarkMode } from "@/components/ui/toggle-mode/ToggleDarkMode";
 import { TopMenu } from "@/components/ui/top-menu/top-menu";
 
@@ -12,8 +13,8 @@ export default function PortfolioLayout({
                 <TopMenu />
             </header>
             <div className="flex justify-end px-8 md:px-12 mt-3"><ToggleDarkMode /></div>
-            <div className="pt-2 flex flex-col items-center md:block mb-20">{children}</div>
-            {/* <footer className="mt-20"></footer> */}
+            <div className="pt-2 flex flex-col items-center md:block">{children}</div>
+            <Footer />
         </main>
     );
 }
