@@ -12,7 +12,7 @@ interface WorkCardProps {
 
 export const WorkCard = ({ title, alt, image, icon, description }: WorkCardProps) => {
     return (
-        <Card className="flex justify-center w-full border-2 border-primary mt-6 md:mt-0">
+        <Card className="flex justify-center w-full md:min-h-full border-2 border-primary mt-6 md:mt-0">
             <div>
                 {/* Image */}
                 <div className="flex justify-center items-center">

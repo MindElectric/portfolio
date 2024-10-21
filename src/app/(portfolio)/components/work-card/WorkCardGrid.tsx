@@ -10,6 +10,7 @@ import database from "../../../../../public/imgs/gif/Icon/database.gif"
 import pieChart from "../../../../../public/imgs/gif/Icon/pie-chart.gif"
 import chatbot from "../../../../../public/imgs/gif/Icon/chatbot.gif"
 import responsive from "../../../../../public/imgs/gif/Icon/responsive.gif"
+import { RevealStagger } from '@/components/animation/RevealStagger'
 
 const WorkData = [
     {
@@ -46,7 +47,10 @@ export const WorkCardGrid = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 md:gap-10 lg:gap-14 xl:gap-32 md:mx-10 xl:mx-10'>
             {WorkData.map((project, index) => (
-                <WorkCard key={index} title={project.title} alt={project.alt} image={project.image} icon={project.icon} description={project.description} />
+                <RevealStagger index={index} key={index}>
+                    <WorkCard title={project.title} alt={project.alt} image={project.image} icon={project.icon} description={project.description} />
+
+                </RevealStagger>
             ))}
         </div>
     )
