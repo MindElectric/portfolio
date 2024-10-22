@@ -39,19 +39,19 @@ export default function HomePage() {
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
                 <p className="leading-loose text-lg md:text-xl md:leading-loose lg:text-2xl lg:leading-loose mt-6 dark:text-slate-200 xl:leading-loose">
-                    I am a young software engineer that loves innovation and learning new things; I always strive to learn more so I can improve upon myself and put into practice what I've learned to its full potential!
+                    I am a young software engineer that loves innovation and learning new things; I always strive to learn more so I can improve upon myself and put into practice what I&apos;ve learned to its full potential!
                     <br />
 
-                    Beyond my work, you'll find I have a passion for video games mostly, but I also have the hobby of reading (especially spooky stories), be it books or on the internet, I love to inmerse myself in the author's writing.
+                    Beyond my work, you&apos;ll find I have a passion for video games mostly, but I also have the hobby of reading (especially spooky stories), be it books or on the internet, I love to inmerse myself in the author&apos;s writing.
                     <br />
                     <br />
-                    I'm excited to share what I can do and hope we can connect!
+                    I&apos;m excited to share what I can do and hope we can connect!
                 </p>
 
             </section>
 
             <section className="w-full mt-14 lg:mt-32">
-                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6 dark:text-slate-200">Companies I've Worked for</h2>
+                <h2 className="text-xl md:text-2xl lg:text-3xl font-bold px-8 md:px-12 mb-6 dark:text-slate-200">Companies I&apos;ve Worked for</h2>
                 <div className="w-full">
                     <LogoScroll />
                 </div>

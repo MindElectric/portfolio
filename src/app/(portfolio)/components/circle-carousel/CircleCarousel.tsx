@@ -2,8 +2,6 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
 } from "@/components/ui/carousel"
 import Image from "next/image"
 import shiba from "../../../../../public/imgs/carousel/shiba.png"
