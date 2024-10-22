@@ -1,5 +1,11 @@
 import { WorkCardGrid } from "../../components/work-card/WorkCardGrid";
 
+export const metadata = {
+    title: 'Work Projects',
+    description: 'Work Projects by Kevin Reyes',
+    keywords: ['Work Projects', 'Kevin Reyes', 'Portfolio'],
+};
+
 export default function WorkPage() {
     return (
         <div className="mt-12">

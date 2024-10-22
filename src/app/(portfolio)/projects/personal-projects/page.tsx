@@ -1,5 +1,12 @@
 import { ColumnCards } from "../../components/personal-card/ColumnCards";
 
+
+export const metadata = {
+    title: 'Personal Projects',
+    description: 'Personal Projects by Kevin Reyes',
+    keywords: ['Personal Projects', 'Kevin Reyes', 'Portfolio'],
+};
+
 export default function PersonalPage() {
     return (
         <div className="mt-12">

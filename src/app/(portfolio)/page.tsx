@@ -38,10 +38,10 @@ export default function HomePage() {
 
             <section className="mt-14 lg:mt-32 px-8 md:px-12">
                 <h2 className="text-xl md:text-2xl lg:text-3xl font-bold dark:text-slate-200">About Me</h2>
-                <p className="text-lg md:text-xl lg:text-2xl mt-6 dark:text-slate-200 leading-relaxed">
-                    I am a young software engineer that loves innovation and learning new things; I always strive to learn more so I can improve upon myself and put into practive what I've learned to its full potential!
+                <p className="leading-loose text-lg md:text-xl md:leading-loose lg:text-2xl lg:leading-loose mt-6 dark:text-slate-200 xl:leading-loose">
+                    I am a young software engineer that loves innovation and learning new things; I always strive to learn more so I can improve upon myself and put into practice what I've learned to its full potential!
                     <br />
-                    <br />
+
                     Beyond my work, you'll find I have a passion for video games mostly, but I also have the hobby of reading (especially spooky stories), be it books or on the internet, I love to inmerse myself in the author's writing.
                     <br />
                     <br />
